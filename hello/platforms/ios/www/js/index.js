@@ -28,6 +28,7 @@ var app = {
     // 'pause', 'resume', etc.
     onDeviceReady: function() {
         this.receivedEvent('deviceready');
+        document.getElementById('timestamp').innerHTML = new Date();
     },
 
     // Update DOM on a Received Event
